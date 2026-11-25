@@ -1,0 +1,3 @@
+driver,expected_claims,expected_severity,expected_cost,premium,sim_mean,sim_median,p90,p99,prob_no_claims,prob_exceeds_premium
+A,0.1,5000.0,500.0,605.0,526.0924643606679,0.0,0.0,12199.96916988228,0.9032,0.0858
+B,0.2,10000.0,2000.0,2420.0,2036.3639664287355,0.0,7092.246032495576,31249.938618434484,0.817,0.1492
