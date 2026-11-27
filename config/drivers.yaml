@@ -1,0 +1,26 @@
+simulation:
+  seed: 20261125
+  policy_years: 10000
+  # Claim size is lognormal with this coefficient of variation.
+  # CV = 1 means the standard deviation of one claim equals its mean severity.
+  severity_cv: 1.0
+
+loadings:
+  expense: 0.2
+  risk_profit: 0.1
+
+drivers:
+  - name: A
+    age: 45
+    experience: 15
+    car_type: family car
+    area: rural
+    lambda: 0.1
+    severity: 5000
+  - name: B
+    age: 22
+    experience: 3
+    car_type: sport car
+    area: city
+    lambda: 0.2
+    severity: 10000
